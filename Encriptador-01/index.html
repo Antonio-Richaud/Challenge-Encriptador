@@ -1,0 +1,87 @@
+<!----------------------------------------------------------------------------->
+<!--------------------------- ANTONIO RICHAUD --------------------------------->
+<!---------------- ENCRIPTADOR DE TEXTOS MEDIANTE LLAVE ----------------------->
+<!----------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="./assets/icon_01.png"> 
+
+    <title>Encriptador | Antonio Richaud</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <h1>Encriptador de textos</h1>
+
+      <label for="message">Texto a encriptar: </label>
+
+      <textarea name="message" id="message" rows="5" cols="50"></textarea>
+
+      <label for="key">Llave: </label>
+
+      <input type="key" id="key" value="Richaud" size="50"/>
+
+      <div class="buttons">
+
+        <button id="enc-btn">Encriptar</button>
+        <button id="dec-btn">Desencriptar</button>
+
+      </div>
+
+      <h2>Resultado:</h2>
+
+      <div id="result"></div>
+
+      <footer>
+
+        <p>
+  
+          Hecho con <i class="far fa-heart" aria-hidden="true"></i> por <a href="https://Antonio-Richaud.com" target="_blank">Antonio Richaud</a>
+  
+        </p>
+  
+        <span class="linkedIn">
+  
+          <a href="https://www.linkedin.com/in/antonio-richaud/" target="_blank">
+  
+            <img src="assets/linkedin.png" alt="LinkedIn"/>
+  
+          </a>
+  
+        </span>
+  
+        <span class="github">
+  
+          <a href="https://github.com/Antonio-Richaud" target="_blank">
+  
+            <img src="./assets/github.png" alt="Github"/>
+  
+          </a>
+  
+        </span>
+  
+      </footer>
+
+    </div>
+
+
+
+    <div id="background"></div>
+    
+    <script src="./js/encriptador.js"></script>
+
+  </body>   
+
+</html>
